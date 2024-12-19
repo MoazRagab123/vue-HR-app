@@ -1,9 +1,15 @@
-<script>
-import './main.css'
+<script setup>
+import NavBar  from './components/NavBar.vue';
+import Hero from './components/Hero.vue'
+import HomeCards from './components/HomeCards.vue';
+import JobListing from './components/JobListing.vue';
 </script>
 
 <template>
-    <h1 class='text-5xl  bg-red-300'>Vue Jobs</h1>
+    <NavBar/>
+    <Hero />
+    <HomeCards/>
+    <JobListing/>
 </template>
 
 <style>
